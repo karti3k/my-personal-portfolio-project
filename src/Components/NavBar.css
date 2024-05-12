@@ -3,18 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Custom fonts */
+@font-face {
+    font-family: Centra;
+    src: url('../Font/CentraNo2-Bold.ttf');
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: Centra;
+    src: url('../Font/CentraNo2-Medium.ttf');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: Centra;
+    src: url('../Font/CentraNo2-Book.ttf');
+    font-weight: 400;
+  }
+  body{
+    font-weight: 400;
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Centra', sans-serif;
+  }
 .top-nav{
     width: auto;
     height: 80px;
-    background-color: #1f1f1f;
+    background-color: #171717;
+    display: flex;
+    justify-content: space-around;
+    gap: 10em;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
 }
 .social-icons{
     display: flex;
     flex-direction: row;
-    gap: 7px;
+    gap: 0.6em;
     float: right;
-    margin-right: 1.8em;
-    margin-top: 1.2em;
+    justify-content: center;
+    align-items: center;
 }
 .social-icons li{
     list-style: none;
@@ -23,6 +59,21 @@
     padding: 0.7em 0.9em;
     background-color: rgb(43, 43, 43);
 }
+.nav-logo > img{
+    width: 5.8em;
+    height: 5em;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.top-but-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(237, 93, 15) */
+}
 .connect-but{
     background-color: #131313;
     color: white;
@@ -30,8 +81,30 @@
     padding: 1.3em 2.2em;
     border: 0.3px solid white;
     font-size: 1em;
-    float: right;
-    margin-right: 5em;
-    margin-top: 0.5em;
     font-weight: bolder;
+}
+.link-to-sections{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    color: white;
+    margin-left: 2em;
+    justify-content: center;
+    align-items: center;
+    /* background-color: wheat; */
+}
+.link-to-sections li a{
+    font-family: 'Centra', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.link-to-sections li a:visited{
+    color: #fff;
+}
+.link-to-sections li a:active{
+    color: lightblue;
+    font-weight: 800;
+}
+.link-to-sections li a:hover{
+    color: lightblue;
 }
