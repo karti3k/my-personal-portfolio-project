@@ -1,31 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Custom fonts */
 @font-face {
     font-family: Centra;
     src: url('../Font/CentraNo2-Bold.ttf');
     font-weight: 700;
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: Centra;
     src: url('../Font/CentraNo2-Medium.ttf');
     font-weight: 500;
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: Centra;
     src: url('../Font/CentraNo2-Book.ttf');
     font-weight: 400;
-  }
-  body{
+}
+
+body {
     font-weight: 400;
     background-color: #121212;
-    color: #fff;
     font-family: 'Centra', sans-serif;
-  }
-.top-nav{
+}
+
+.top-nav {
     width: auto;
     height: 80px;
     background-color: #171717;
@@ -33,18 +37,21 @@
     justify-content: space-around;
     gap: 10em;
 }
-.sec1{
+
+.sec1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.sec2{
+
+.sec2 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2em;
 }
-.social-icons{
+
+.social-icons {
     display: flex;
     flex-direction: row;
     gap: 0.6em;
@@ -52,14 +59,25 @@
     justify-content: center;
     align-items: center;
 }
-.social-icons li{
+
+.social-icons li {
     list-style: none;
     border: 1px solid white;
     border-radius: 26px;
     padding: 0.7em 0.9em;
     background-color: rgb(43, 43, 43);
 }
-.nav-logo > img{
+
+.social-icons li a img {
+    transition: transform 0.3s ease;
+}
+
+.social-icons li a:hover img {
+    transform: scale(1.35);
+    /* Scale up the size on hover */
+}
+
+.nav-logo>img {
     width: 5.8em;
     height: 5em;
     float: left;
@@ -68,13 +86,15 @@
     align-items: center;
     /* background-color: blue; */
 }
-.top-but-box{
+
+.top-but-box {
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: rgb(237, 93, 15) */
 }
-.connect-but{
+
+.connect-but {
     background-color: #131313;
     color: white;
     border: none;
@@ -82,8 +102,40 @@
     border: 0.3px solid white;
     font-size: 1em;
     font-weight: bolder;
+    background: linear-gradient(to right, #131313 50%, #ffffff 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.3s ease;
 }
-.link-to-sections{
+
+.connect-but:hover {
+    cursor: pointer;
+    background-position: -100% 0;
+    color: #121212;
+}
+
+/*
+background:
+
+    linear-gradient(to right, #007bff 50%, #ffffff 50%): This creates a linear gradient that goes from left to right.
+    #007bff 50%: This sets the background color to #007bff (blue) for the first 50% of the gradient.
+    #ffffff 50%: This sets the background color to #ffffff (white) for the remaining 50% of the gradient.
+
+background-size: 200% 100%;:
+
+    200%: The gradient is twice as wide as the button. This is done to create space for the sliding effect.
+    100%: The gradient covers the full height of the button.
+
+transition: background-position 0.3s ease;:
+
+    This specifies the transition effect for the background position. The background position will change smoothly over a duration of 0.3s with an ease timing function.
+    
+        .button:hover:
+        This targets the button when it is hovered over.
+
+    background-position: -100% 0;:
+        This shifts the background position of the gradient to the left completely (-100%), creating the sliding effect from left to right.
+ */
+.link-to-sections {
     list-style: none;
     display: flex;
     gap: 2em;
@@ -93,18 +145,24 @@
     align-items: center;
     /* background-color: wheat; */
 }
-.link-to-sections li a{
+
+.link-to-sections li a {
     font-family: 'Centra', sans-serif;
     font-size: 1.2em;
     text-decoration: none;
 }
-.link-to-sections li a:visited{
-    color: #fff;
+
+.link-to-sections li a:visited {
+    color: rgb(140, 135, 135);
 }
-.link-to-sections li a:active{
-    color: lightblue;
-    font-weight: 800;
+
+.link-to-sections li a:hover {
+    color: #121212;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
 }
-.link-to-sections li a:hover{
-    color: lightblue;
+
+.link-to-sections li {
+    width: 70px;
+    /* Fixed width for list items so as to prevent the dispalcement of every element from its place in the navbar*/
 }
