@@ -1,0 +1,22 @@
+.main-sec {
+    position: relative; /* Ensure main section positioning context */
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Ensure no overflow is visible */
+}
+
+.main-sub-sec1, .main-sub-sec2 {
+    /* Add styles for sub-sections if necessary */
+}
+
+.main-sec::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the viewport */
+    height: 100%; /* Full height of the viewport */
+    background: url(../Images/banner-bg.png) no-repeat center center; /* Background image settings */
+    background-size: cover; /* Cover the element with the background image */
+    z-index: -1; /* Ensure it is behind the content */
+}

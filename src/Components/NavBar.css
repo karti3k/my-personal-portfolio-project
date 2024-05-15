@@ -30,12 +30,16 @@ body {
 }
 
 .top-nav {
-    width: auto;
+    position: fixed; /* Fix navbar to the top */
+    top: 0;
+    width: 100%;
     height: 80px;
-    background-color: #171717;
+    background-color: rgba(0, 0, 0, 0);
     display: flex;
     justify-content: space-around;
     gap: 10em;
+    z-index: 1000; /* Ensure navbar is on top */
+    padding-top: 0.8em;
 }
 
 .sec1 {
@@ -62,12 +66,15 @@ body {
 
 .social-icons li {
     list-style: none;
-    border: 1px solid white;
+    border: 1px solid rgb(127, 124, 124);
     border-radius: 26px;
-    padding: 0.7em 0.9em;
+    padding: 0.5em 0.8em;
+    padding-top: 0.7em;
     background-color: rgb(43, 43, 43);
 }
-
+.social-icons li:hover{
+    background: linear-gradient(105deg, #121212, #c37af7);
+}
 .social-icons li a img {
     transition: transform 0.3s ease;
 }
@@ -95,14 +102,14 @@ body {
 }
 
 .connect-but {
-    background-color: #131313;
+    background-color: transparent; 
     color: white;
     border: none;
     padding: 1.3em 2.2em;
     border: 0.3px solid white;
     font-size: 1em;
     font-weight: bolder;
-    background: linear-gradient(to right, #131313 50%, #ffffff 50%);
+    background: linear-gradient(95deg, #121212, #c37af7);
     background-size: 200% 100%;
     transition: background-position 0.3s ease;
 }
@@ -110,7 +117,7 @@ body {
 .connect-but:hover {
     cursor: pointer;
     background-position: -100% 0;
-    color: #121212;
+    color: #ffffff;
 }
 
 /*
@@ -153,13 +160,11 @@ transition: background-position 0.3s ease;:
 }
 
 .link-to-sections li a:visited {
-    color: rgb(140, 135, 135);
+    color: rgb(255, 255, 255);
 }
 
 .link-to-sections li a:hover {
-    color: #121212;
-    border: 1px solid whitesmoke;
-    background-color: whitesmoke;
+    background: linear-gradient(95deg, #121212, #c37af7); /* Change text color to #c37af7 on hover */
 }
 
 .link-to-sections li {

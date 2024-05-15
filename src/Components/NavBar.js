@@ -6,7 +6,6 @@ import './NavBar.css'
 
 const NavBar = ()=>{
     return (
-        <div>
             <nav className="top-nav">
                 <section className='sec1'>
                 <span className='nav-logo'>
@@ -31,7 +30,6 @@ const NavBar = ()=>{
                 </span>
                 </section>
             </nav>
-        </div>
     )
 }
 export default NavBar;
