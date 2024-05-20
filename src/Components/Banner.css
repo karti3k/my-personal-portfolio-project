@@ -3,12 +3,23 @@
     width: 100vw; /* Full width of the viewport */
     height: 100vh; /* Full height of the viewport */
     overflow: hidden; /* Ensure no overflow is visible */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    background-color: rgba(0, 0, 0, 0.265);
 }
 
 .main-sub-sec1, .main-sub-sec2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9em;
     /* Add styles for sub-sections if necessary */
 }
 
+.main-sub-sec1{
+    margin-top: 5em;
+}
 .main-sec::before {
     content: "";
     position: absolute;
@@ -16,7 +27,49 @@
     left: 0;
     width: 100%; /* Full width of the viewport */
     height: 100%; /* Full height of the viewport */
-    background: url(../Images/banner-bg.png) no-repeat center center; /* Background image settings */
+    background: url(../Images/banner-bg.png) no-repeat; /* Background image settings */
     background-size: cover; /* Cover the element with the background image */
     z-index: -1; /* Ensure it is behind the content */
+}
+
+.banner-but {
+    width: 15em;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(105deg, #000,  #422538c7);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  display: inline-block;
+  color: #ffffffd6;
+  margin-left: 5em;
+}
+.banner-but:hover{
+    background: linear-gradient(105deg, #231a3b,  #422538c7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+/* Style for the main-text container to ensure proper display */
+
+.main-text h1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    align-items: start;
+    color: white;
+    font-size: 3em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.main-text p{
+    margin-top: 1em;
+    color: white;
+}
+.main-text div{
+    width: 29em;
+    margin-left: 6.2em;
+    text-align: justify;
+    
+}
+.txt-rotate .wrap {
+    border-right: 0.08em solid rgb(148, 148, 148); /* Cursor effect */
 }
