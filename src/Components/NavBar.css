@@ -75,7 +75,7 @@ body {
     background-color: rgba(43, 43, 43, 0.534);
 }
 .social-icons li:hover{
-    background: linear-gradient(105deg, #000000ae,  #422538c7);
+    background: linear-gradient(134deg, #000000ae,  #8f75e4);
 }
 .social-icons li a img {
     transition: transform 0.3s ease;
@@ -110,16 +110,16 @@ body {
     padding: 1.3em 2.2em;
     font-size: 1em;
     font-weight: bolder;
-    background: linear-gradient(105deg, #000000ae,  #422538c7);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: linear-gradient(105deg, #000000ae,  #8f75e4);
+    border: 1px solid rgba(255, 255, 255, 0.5); 
     background-size: 200% 100%;
     transition: background-position 0.3s ease;
 }
-
+/* #8f75e4 #893492*/
 .connect-but:hover {
     cursor: pointer;
     background-position: -100% 0;
-    color: #ffffff;
+    color: #cab3da;
 }
 
 /*
@@ -163,11 +163,11 @@ transition: background-position 0.3s ease;:
 }
 
 .link-to-sections li a:visited {
-    color: rgba(255, 255, 255, 0.875);
+    color: #cab3da;
 }
 
 .link-to-sections li a:hover {
-    color: rgb(240, 214, 251);
+    color: #8f75e4;
 }
 
 .link-to-sections li {

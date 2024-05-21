@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './Banner.css';
+import headerImg from '../Images/header-img.svg';
 
 const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = ["Front-End Developer", "Graphic Designer", "Content Creator"];
     const period = 2000;
 
     useEffect(() => {
@@ -41,14 +42,14 @@ const Banner = () => {
             <section className='main-sub-sec1'>
                
                 <span className='main-text'>
-                        <h1>{`Hi! I'm Kartik Bhatia`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                        <h1>{`Hi! I'm Kartik Bhatia`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front-End Developer", "Graphic Designer", "Content Creator" ]'><span className="wrap">{text}</span></span></h1>
                         <div>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
                 </span>
             </section>
             <section className='main-sub-sec2'>
-
+                <img src={headerImg}></img>
             </section>
         </main>
     )
