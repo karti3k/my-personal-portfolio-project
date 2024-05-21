@@ -13,13 +13,11 @@
 
 .main-sub-sec1, .main-sub-sec2 {
     display: flex;
-    flex-direction: column;
     gap: 0.9em;
-    /* Add styles for sub-sections if necessary */
 }
 
 .main-sub-sec1{
-    width: 36em;
+    width: 36%;
     margin-top: 5em;
     /* background-color: blue; */
 }
@@ -35,23 +33,6 @@
     z-index: -1; /* Ensure it is behind the content */
 }
 
-.banner-but {
-    width: 15em;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
-  background: linear-gradient(105deg, #000,  #422538c7);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 20px;
-  display: inline-block;
-  color: #ffffffd6;
-  margin-left: 5em;
-}
-.banner-but:hover{
-    background: linear-gradient(105deg, #231a3b,  #422538c7);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-/* Style for the main-text container to ensure proper display */
 
 .main-text h1{
     display: flex;
@@ -83,11 +64,11 @@
 .main-sub-sec2{
     align-items: center;
     justify-content: center;
-    margin-top: 6em;
+    margin-top: 6%;
     /* background-color: red; */
 }
 .main-sub-sec2 img{
-    width: 32em;
+    width: 72%;
     animation: upDown 4s infinite ease-in-out;
 }
 @keyframes upDown {
