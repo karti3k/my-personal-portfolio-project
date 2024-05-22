@@ -1,0 +1,32 @@
+.skills-sec{
+    display: flex;
+    justify-content:flex-end;
+    width: auto;
+    height: 18em;
+    background-color: #0d0d0d;
+    
+}
+.skills-div{
+    /* position: absolute; */
+    background-color: #0d0d0d;
+    width: 72%;
+    height: 16em;
+    border-radius: 64px 0px 0px 64px;
+    border: 1px solid white;
+    gap: 0.2em;
+    z-index: 4;
+    border-right: none;
+}
+.skills-div h2{
+    color: white;
+    padding: 1em;
+    font-size: 2em;
+}
+.skills-div h3{
+    display: inline-block;
+    background: linear-gradient(180deg, #000000ae, #000000ae, #000000ae, #000000ae, #000000ae,#000000ae, #893492,#8f75e4);
+    color:white;
+    border: 1px solid white;
+    margin: 0.2em;
+    padding: 0.15em;
+}
