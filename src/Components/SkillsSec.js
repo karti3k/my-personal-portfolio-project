@@ -11,6 +11,7 @@ const SkillsSec = () =>{
                 <h3>React JS</h3>
                 <h3>Java</h3>
                 <h3>Python</h3>
+                <h3>C</h3>
                 <h3>Canva</h3>
                 <h3>Figma</h3>
                 <h3>Power Director Pro</h3>

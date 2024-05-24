@@ -14,7 +14,7 @@ const NavBar = ()=>{
                 <ul className='link-to-sections'>
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>Skills</a></li>
-                    <li><a href='#'>Projects</a></li>
+                    <li><a href='#'>Creations</a></li>
                 </ul>
                 </section>
                 <section className='sec2'>

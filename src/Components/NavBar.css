@@ -75,7 +75,7 @@ body {
     background-color: rgba(43, 43, 43, 0.534);
 }
 .social-icons li:hover{
-    background: linear-gradient(134deg, #000000ae,  #8f75e4);
+    background: linear-gradient(105deg, #000000ae,#893492, #8f75e4);
 }
 .social-icons li a img {
     transition: transform 0.3s ease;
@@ -110,7 +110,7 @@ body {
     padding: 1.3em 2.2em;
     font-size: 1em;
     font-weight: bolder;
-    background: linear-gradient(105deg, #000000ae,  #8f75e4);
+    background: linear-gradient(105deg, #000000ae,#893492, #8f75e4);
     border: 1px solid rgba(255, 255, 255, 0.5); 
     background-size: 200% 100%;
     transition: background-position 0.3s ease;
@@ -119,7 +119,6 @@ body {
 .connect-but:hover {
     cursor: pointer;
     background-position: -100% 0;
-    color: #cab3da;
 }
 
 /*

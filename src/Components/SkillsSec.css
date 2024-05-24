@@ -12,7 +12,7 @@
     width: 72%;
     height: 16em;
     border-radius: 64px 0px 0px 64px;
-    border: 1px solid white;
+    border: 1px solid #8f75e4;
     gap: 0.2em;
     z-index: 4;
     border-right: none;
@@ -20,13 +20,14 @@
 .skills-div h2{
     color: white;
     padding: 1em;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 .skills-div h3{
     display: inline-block;
-    background: linear-gradient(180deg, #000000ae, #000000ae, #000000ae, #000000ae, #000000ae,#000000ae, #893492,#8f75e4);
+    background: linear-gradient(180deg, #000000ae, #000000ae, #000000ae, #000000ae, #000000ae,#000000ae,#000000ae,#000000ae,#000000ae, #893492,#8f75e4);
     color:white;
     border: 1px solid white;
     margin: 0.2em;
     padding: 0.15em;
+    font-weight: 300;
 }
