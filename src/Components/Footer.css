@@ -1,0 +1,39 @@
+
+
+.last-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100vw;
+    height: 3em;
+    background: linear-gradient(180deg, #00000000, #00000000, #00000000,#00000000,#00000000,#00000000,#00000000, #893492,#8f75e4);
+}
+.last-line ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1em;
+    font-size: 0.8em;
+}
+.vertical-line{
+    width: 0.08em;
+    height: 0.6em;
+    background-color: white;
+}
+.last-line ul a{
+    color: white;
+    text-decoration: none;
+}
+.last-line a:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+}
+.last-line ul a:visited{
+    color: white;
+    text-decoration: none;
+}
+.foot-social-icons{
+    border-radius: none;
+}

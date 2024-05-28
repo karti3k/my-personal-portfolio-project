@@ -3,6 +3,7 @@ import NavBar from './Components/NavBar';
 import Banner from './Components/Banner';
 import SkillsSec from './Components/SkillsSec';
 import ProjectSec from './Components/ProjectSec';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <SkillsSec />
       <ProjectSec />
+      <Footer />
     </div>
   );
 }
