@@ -128,6 +128,12 @@
    .txt-rotate{
     background-color: #020d2e00;
 }
+#skill-sec{
+    position: absolute;
+    display: inline;
+    width: 0.15em;
+    margin-top: 64%;
+}
 }
 
 /* For mobile devices */
@@ -180,6 +186,12 @@
     .txt-rotate{
         background-color: #020d2e00;
     }
+    #skill-sec{
+        position: absolute;
+        display: inline;
+        width: 0.15em;
+        margin-top: 84em;
+    }
 }
 
 /* For smaller mobile devices */
@@ -231,5 +243,11 @@
     }
     .txt-rotate{
         background-color: #020d2e00;
+    }
+    #skill-sec{
+        position: absolute;
+        display: inline;
+        width: 0.15em;
+        margin-top: 84em;
     }
 }

@@ -59,11 +59,39 @@
     .skills-div{
         height: 18em;
     }
+    #creation-sec{
+        position: absolute;
+        display: inline;
+        width: 0.15em;
+        margin-top: 8%;
+    }
+    
 }
 
 /* For mobile devices */
 @media (max-width:768px) and (min-width: 481px) {
-    
+    .skills-sec{
+        margin-bottom: 60px;
+        margin-top: 40px;
+        background-color: #020d2e;
+    }
+    .skills-div{
+        width: 78%;
+        height: 18em;
+    }
+    .skills-div h3{
+        margin: 0.3em;
+        padding: 0.3em;
+        font-weight: 300;
+        font-size: 0.9em;
+        border-radius: 19px;
+    }
+    #creation-sec{
+        position: absolute;
+        display: inline;
+        width: 0.15em;
+        margin-top: 6em;
+    }
 }
 
 /* For smaller mobile devices */
@@ -83,5 +111,11 @@
         font-weight: 300;
         font-size: 0.9em;
         border-radius: 19px;
+    }
+    #creation-sec{
+        position: absolute;
+        display: inline;
+        width: 0.15em;
+        margin-top: 6em;
     }
 }
