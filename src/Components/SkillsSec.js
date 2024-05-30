@@ -18,6 +18,7 @@ const SkillsSec = () =>{
                 <h3>VS Code</h3>
                 <h3>Git & Github</h3>
                 <h3>Basic Linux Commands</h3>
+                <span id='creation-sec'></span>
             </div>
         </section>
     );

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Banner.css';
-import headerImg from '../Images/header-img.svg';
+import roboImg from '../Images/robot.png';
 
 const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -38,18 +38,21 @@ const Banner = () => {
         }
     }
     return (
-        <main className='main-sec'>
+        <main className='main-sec' id='home-sec'>
             <section className='main-sub-sec1'>
-               
-                <span className='main-text'>
+
+                <span className='main-text' >
+                    <div>
                         <h1>{`Hi! I'm Kartik Bhatia`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front-End Developer", "Graphic Designer", "Content Creator" ]'><span className="wrap">{text}</span></span></h1>
-                        <div>
+                    </div>
+                    <div>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        </div>
+                    </div>
+                    <span id='skill-sec'></span>
                 </span>
             </section>
             <section className='main-sub-sec2'>
-                <img src={headerImg}></img>
+                <img src={roboImg}></img>
             </section>
         </main>
     )

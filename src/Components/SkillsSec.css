@@ -4,7 +4,6 @@
     width: 100%;
     height: 18em;
     background-color: #0d0d0d;
-    
 }
 .skills-div{
     /* position: absolute; */
@@ -12,7 +11,7 @@
     background-color: black;
     height: 16em;
     border-radius: 64px;
-    border: 1px solid #8f75e4;
+    border: 1px solid #00b1e4;
     gap: 0.2em;
     z-index: 4;
     padding: 0.2em;
@@ -24,11 +23,58 @@
 }
 .skills-div h3{
     display: inline-block;
-    background: linear-gradient(180deg, #000000ae, #000000ae, #000000ae, #000000ae, #000000ae,#000000ae,#000000ae,#000000ae,#000000ae, #893492,#8f75e4);
+    background: linear-gradient(180deg, #000000ae, #000000ae, #000000ae, #000000ae, #000000ae,#000000ae,#000000ae,#000000ae,#000000ae, #00b1e4, #0c323e);
     color:white;
     border: 1px solid white;
     margin: 0.3em;
     padding: 0.55em;
     font-weight: 300;
     border-radius: 19px;
+}
+#creation-sec{
+    position: absolute;
+    display: inline;
+    width: 0.15em;
+    margin-top: 4%;
+}
+
+/*adding Responsiveness */
+
+/* For smaller laptops */
+@media (max-width:1200px) and (min-width: 1025px) {
+    
+}
+
+/* For tablets */
+@media (max-width:1024px) and (min-width: 769px) {
+    .skills-sec{
+        margin-bottom: 60px;
+        margin-top: 60px;
+        background-color: #121212;
+    }
+    .skills-div{
+        height: 18em;
+    }
+}
+
+/* For mobile devices */
+@media (max-width:768px) and (min-width: 481px) {
+    
+}
+
+/* For smaller mobile devices */
+@media (max-width:480px) and (min-width: 320px) {
+    .skills-sec{
+        background-color: black;
+    }
+    .skills-div{
+        height: 18em;
+    }
+    .skills-div h3{
+        margin: 0.3em;
+        padding: 0.25em;
+        font-weight: 300;
+        font-size: 1em;
+        border-radius: 19px;
+    }
 }

@@ -8,11 +8,11 @@ const Footer = () => {
             <div className='foot-div'>
                 <div className='last-line'>
                     <ul>
-                        <li><a href='#'>Go To Top</a></li>
+                        <li><a href='#home-sec'>Go To Top</a></li>
                         <div className='vertical-line'></div>
-                        <li><a href='#'>Go To Skills</a></li>
+                        <li><a href='#skill-sec'>Go To Skills</a></li>
                         <div className='vertical-line'></div>
-                        <li><a href='#'>Go To Creations</a></li>
+                        <li><a href='#creation-sec'>Go To Creations</a></li>
                     </ul>
                 </div>
             </div>
