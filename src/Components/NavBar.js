@@ -8,10 +8,33 @@ import './NavBar.css'
 
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [lastScrollTop, setLastScrollTop] = useState(0);
+    const [isVisible, setIsVisible] = useState(true);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (currentScrollTop > lastScrollTop) {
+                // Scrolling down
+                setIsVisible(false);
+            } else {
+                // Scrolling up
+                setIsVisible(true);
+            }
+            setLastScrollTop(currentScrollTop <= 0 ? 0 : currentScrollTop);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [lastScrollTop]);
+
     useEffect(() => {
         const connectButton = document.getElementById('connectButton');
         if (connectButton) {
@@ -30,7 +53,7 @@ const NavBar = () => {
         };
     }, []);
     return (
-        <nav className="top-nav">
+        <nav className={`top-nav ${isVisible ? '' : 'hidden'}`}>
             <section className='sec1'>
                 <span className='nav-logo'>
                     <a href='#home-sec'><img src={logo}></img></a>

@@ -3,12 +3,12 @@
     justify-content: center;
     width: 100%;
     height: 18em;
-    background-color: #0d0d0d;
+    background-color: #020d2e;
 }
 .skills-div{
     /* position: absolute; */
     width: 86%;
-    background-color: black;
+    background: linear-gradient(105deg, #020d2eb8,#1c39729c, #00b3e49a);
     height: 16em;
     border-radius: 64px;
     border: 1px solid #00b1e4;
@@ -23,7 +23,8 @@
 }
 .skills-div h3{
     display: inline-block;
-    background: linear-gradient(180deg, #000000ae, #000000ae, #000000ae, #000000ae, #000000ae,#000000ae,#000000ae,#000000ae,#000000ae, #00b1e4, #0c323e);
+    /* background: linear-gradient(180deg, #000000ae, #000000ae, #000000ae, #000000ae, #000000ae,#000000ae,#000000ae,#000000ae,#000000ae, #00b1e4, #0c323e); */
+    background: linear-gradient(#1c3972, #1c3972,#1c3972,#1c3972,#1c3972,#00b1e4);
     color:white;
     border: 1px solid white;
     margin: 0.3em;
@@ -53,7 +54,7 @@
     .skills-sec{
         margin-bottom: 60px;
         margin-top: 60px;
-        background-color: #121212;
+        background-color: #020d2e;
     }
     .skills-div{
         height: 18em;
@@ -70,7 +71,7 @@
     .skills-sec{
         margin-bottom: 60px;
         margin-top: 40px;
-        background-color: #121212;
+        background-color: #020d2e;
     }
     .skills-div{
         width: 78%;
