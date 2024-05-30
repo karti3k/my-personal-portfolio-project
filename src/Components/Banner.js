@@ -46,7 +46,7 @@ const Banner = () => {
                         <h1>{`Hi! I'm Kartik Bhatia`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front-End Developer", "Graphic Designer", "Content Creator" ]'><span className="wrap">{text}</span></span></h1>
                     </div>
                     <div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Aspiring Front-End Engineer with a passion for crafting stunning and user-friendly interfaces. Goal-oriented and dedicated to creating captivating web applications and enhancing user experience through visually appealing design. Additionally skilled in graphic design and content creation, bringing a comprehensive approach to visual storytelling and user engagement.</p>
                     </div>
                     <span id='skill-sec'></span>
                 </span>
