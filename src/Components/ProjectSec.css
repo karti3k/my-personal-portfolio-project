@@ -149,7 +149,24 @@
 
 /* For smaller mobile devices */
 @media (max-width:480px) and (min-width: 320px) {
+    .project-sec{
+        background-color: #121212;
+    }
+    .project-sec>div{
+        margin-top: 28em;
+        width: 78%;
+        height: 58em;
+        padding: 1em;
+    }
     .project-img-div{
         flex-direction: column;
+        gap: 1.3em;
     }
+    .projects img{
+        width: 95%;
+    }
+    .proj-bttns-div{
+        width: 100%;
+    }
+   
 }

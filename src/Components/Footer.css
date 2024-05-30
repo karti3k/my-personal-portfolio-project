@@ -37,3 +37,10 @@
 .foot-social-icons{
     border-radius: none;
 }
+
+/* For smaller mobile devices */
+@media (max-width:480px) and (min-width: 320px) {
+    footer{
+        margin-top: 28em;
+    }
+}
