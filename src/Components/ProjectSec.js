@@ -9,7 +9,6 @@ import designimg3 from '../Images/designimg3.jpg';
 import contImg4 from '../Images/contImg4.jpg';
 import contImg6 from '../Images/contImg6.jpg';
 import contImg8 from '../Images/contImg8.jpg';
-
 const ProjectSec = () => {
     const [selectedCategory, setSelectedCategory] = useState('tech');
     const [previousCategory, setPreviousCategory] = useState(null);

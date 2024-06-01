@@ -25,14 +25,14 @@
     background: linear-gradient(105deg, #020d2eb8,#1c39729c, #00b3e49a);
     padding: 2em;
     border-radius: 64px;
-    border: 1px solid #00b1e4;
+    border: 1.5px solid #00b1e4;
 }
 
 .proj-bttns-div {
     /* margin-bottom: 2em; */
     width: 50%;
     height: 15%;
-    border: 0.5px solid white;
+    border: 3px solid #00b1e4;
     border-radius: 64px;
     display: flex;
     background: linear-gradient(#1c3972, #1c3972,#1c3972,#1c3972,#1c3972,#00b1e4);
@@ -45,13 +45,12 @@
     background-color: transparent;
     color: white;
     font-weight: 600;
-
 }
 
 .proj-bttn:hover {
     cursor: pointer;
     /* background: linear-gradient(105deg, #000000ae, #8f75e4); */
-    background: linear-gradient( #020d2eb8, #020d2eb8, #020d2eb8, #020d2eb8, grey);
+    background: linear-gradient( #020d2eb8, #020d2eb8, #020d2eb8, #020d2eb8,#020d2eb8, white);
     opacity: 90%;
 }
 
@@ -73,8 +72,7 @@
     width: 18em;
     height: 12em;
     border-radius: 44px;
-    border: 0.5px solid white;
-    filter: grayscale(100%);
+    border: 3px solid #00b1e4;
     box-shadow: 5px 4px 5px #00b1e4;
     z-index: 2;
 }
@@ -91,10 +89,9 @@
 
 .projects img:hover {
     /* transform: scale(1.1); */
-    border: 2px solid #00b1e4;
-    box-shadow: 6px 4px 6px #217a82;
+    border: 0.5px solid white;
+    box-shadow: 5px 4px 5px white;
     /* filter: blur(2px); */
-    filter: grayscale(0%);
 }
 
 .projects {
@@ -121,8 +118,8 @@
     transform: scale(1.1);
 }
 .proj-bttn.active {
-    background: linear-gradient(#020d2eb8, #020d2eb8, #020d2eb8, #020d2eb8, grey);
-    opacity: 90%;
+    background: linear-gradient(#020d2eb8, #020d2eb8, #020d2eb8, #020d2eb8,#020d2eb8, white);
+    color: #00b1e4;
 }
 
 .proj-bttn.previous {
@@ -181,6 +178,7 @@
         background-color: #020d2e;
     }
     .project-sec>div{
+        border-radius: 24px;
         margin-top: 28em;
         width: 78%;
         height: 58em;
@@ -191,7 +189,8 @@
         gap: 1.3em;
     }
     .projects img{
-        width: 95%;
+        border-radius: 24px;
+        width: 98%;
     }
     .proj-bttns-div{
         width: 100%;
