@@ -1,6 +1,7 @@
 .main-sec {
+    gap: 3em;
     position: relative; /* Ensure main section positioning context */
-    width: 100vw; /* Full width of the viewport */
+    width: 100%; /* Full width of the viewport */
     height: 100vh; /* Full height of the viewport */
     overflow: hidden; /* Ensure no overflow is visible */
     display: flex;
@@ -95,7 +96,6 @@
 }
 
 /*adding Responsiveness */
-
 /* For smaller laptops */
 @media (max-width:1200px) and (min-width: 1025px) {
 
