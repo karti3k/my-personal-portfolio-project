@@ -272,10 +272,9 @@ transition: background-position 0.3s ease;:
         background-color: black;
     }
     .sec1{
-        /* margin-left: 4%; */
+        /* margin-left: 1%; */
     }
     .nav-logo>a>img {
-        padding-top: 0.4em;
         width: 3.8em;
         height: 3em;
     }
@@ -290,7 +289,7 @@ transition: background-position 0.3s ease;:
     .sec3>button>img{
         width: 2em;
         height: 2em;
-        margin-right: 2.5em;
+        margin-right: 1.9em;
     }
     .sec3{
         display: inline;
