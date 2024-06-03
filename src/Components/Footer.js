@@ -3,6 +3,7 @@ import behanceIcon from '../Images/behance_icon.svg';
 import linkedinIcon from '../Images/linkedin_icon.svg';
 import './Footer.css';
 const Footer = () => {
+    const today = new Date();
     return (
         <footer>
             <div className='foot-div'>
@@ -21,7 +22,7 @@ const Footer = () => {
                         <div className='vertical-line'></div>
                         <li className='foot-creations-navigation'><a href='#creation-sec'>Go To Creations</a></li>
                     </ul>
-                    <p className='copyright'>&copy; 2024 Kartik Bhatia. All rights reserved.</p>
+                    <p className='copyright'>&copy; {today.getFullYear()} Kartik Bhatia. All rights reserved.</p>
                 </div>
             </div>
         </footer>
