@@ -202,6 +202,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 0em;
     }
     .main-text h1{
         font-size: 2.2em;
@@ -236,11 +237,13 @@
         justify-content: center;
         align-items: center;
         padding: 3em;
+        padding-bottom: 0;
         /* background-color: blue; */
     }
     .main-sub-sec2{
         justify-content: center;
         width: 80%;
+        /* background-color: red; */
     }
     .txt-rotate{
         background-color: #020d2e00;
