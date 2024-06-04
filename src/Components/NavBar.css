@@ -172,6 +172,9 @@ transition: background-position 0.3s ease;:
 .link-to-sections li a:visited {
     color: #00b1e4;
 }
+.link-to-sections li a:active {
+    color: #00b1e4;
+}
 
 .link-to-sections li a:hover {
     filter: brightness(130%);
