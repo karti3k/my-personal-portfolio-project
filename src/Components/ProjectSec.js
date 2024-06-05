@@ -20,8 +20,8 @@ const ProjectSec = () => {
             { img: newProjectImg3, link: 'https://github.com/acmditu/ACM-Website', text: 'GitHub' },
         ],
         designs: [
-            { img: newDesignImg1, link: 'https://www.behance.net/gallery/184804873/Jainism-Website-Design-Idea', text: 'Behance' },
-            { img: newDesignImg2, link: 'https://www.behance.net/gallery/180831449/Expense-Manger-Web-App-UI-Design-Idea-', text: 'Behance' },
+            { img: newDesignImg1, link: 'https://www.behance.net/gallery/180831449/Expense-Manger-Web-App-UI-Design-Idea-', text: 'Behance' },
+            { img: newDesignImg2, link: 'https://www.behance.net/gallery/184804873/Jainism-Website-Design-Idea', text: 'Behance' },
             { img: newDesignImg3, link: 'https://www.behance.net/gallery/179476323/Some-of-my-poster-designs-and-logo-designs', text: 'Behance' },
         ],
         content: [
